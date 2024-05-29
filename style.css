@@ -1,9 +1,44 @@
 /*-------------------------------------------RESPONSIVENESS--------------------------------------------------*/
-@media (max-width: 800px) {
-  .my-skills{
-    flex-direction: column;
-  }
-}
+    @media (min-width: 319px) and (max-width:480px){
+      body{
+        text-align: center;
+        font-family: "Merriweather", serif;
+      }
+      img{
+        width: 370px;
+      }
+      .my-skills{
+        flex-wrap: wrap;
+      }
+    }
+    @media (min-width: 481px) and (max-width:1200px){
+      body{
+        margin: 0;
+        text-align: center;
+        font-family: "Merriweather", serif;
+      }
+      .my-skills{
+        flex-wrap: wrap;
+      }
+    }
+    @media (min-width: 1201px) and (max-width:1600px){
+      body{
+        margin: 0;
+        text-align: center;
+        font-family: "Merriweather", serif;
+      }
+      .my-skills{
+        flex-wrap: wrap;
+      }
+    }
+    @media (min-width: 1601px) {
+      body{
+        margin: 0;
+        text-align: center;
+        font-family: "Merriweather", serif;
+      }
+    }
+
 /*-------------------------------------------MAIN-BOX--------------------------------------------------*/
 
 body {
