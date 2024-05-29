@@ -1,3 +1,42 @@
+/*-------------------------------------------RESPONSIVENESS--------------------------------------------------*/
+@media (min-width: 319px) and (max-width:480px){
+  body{
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  .middle-container{
+    flex-wrap: wrap;
+  }
+  .skills{
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 481px) and (max-width:1200px){
+  body{
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  .middle-container{
+    flex-wrap: wrap;
+  }
+  .skills{
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1201px) and (max-width:1600px){
+  body{
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  .middle-container{
+    flex-wrap: wrap;
+  }
+  .skills{
+    flex-wrap: wrap;
+  }
+}
 /*-------------------------------------------MAIN-BOX----------------------------------------------------------*/
 .border{  
     border: dotted rgb(118, 159, 205) 10px;
@@ -6,7 +45,6 @@
     margin: 100px auto;    
 }
 h1{
-  text-align: center;
   font-size: 88px;
   margin: 0px;
   font-family: Sacramento, cursive;
@@ -15,9 +53,10 @@ h1{
 h2{
     color: rgb(118, 159, 205);
     font-family: Montserrat, sans-serif;
-    text-align: center;
 }
 body{
+  text-align: center;
+  font-family: "Merriweather", serif;
   margin: 0px;
 }
 /*-------------------------------------------NAVBAR------------------------------------------------------------*/
@@ -29,7 +68,6 @@ body{
 .topnav a {
   float: left;
   color:  rgb(185, 215, 234);
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -60,6 +98,7 @@ body {
 }
 
 .worko-tabs {
+  text-align: left;
   justify-content: center;
     margin: 20px;
   	width: 80%;
@@ -161,8 +200,8 @@ body {
 }
 /*-------------------------------------------TOP-CONTAINER-----------------------------------------------------*/
 .primary-box{
+  display: flex;
   background-color: rgb(118, 159, 205);
-  text-align: center;
   margin: auto;
   padding: 50px
 }
@@ -176,13 +215,12 @@ body {
 
 /*-------------------------------------------MIDDLE-CONTAINER--------------------------------------------------*/
 .workexperience{
-  text-align: center;
+  display: flex;
   margin: auto;
   font-family: Montserrat, sans-serif;
   padding-top: 50px;
 }
 .middle-container{
-    text-align: center;
     margin: auto;
     font-family: Montserrat, sans-serif;
 }
