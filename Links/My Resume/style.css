@@ -30,12 +30,7 @@
     text-align: center;
     font-family: "Merriweather", serif;
   }
-  .middle-container{
-    flex-wrap: wrap;
-  }
-  .skills{
-    flex-wrap: wrap;
-  }
+  
 }
 /*-------------------------------------------MAIN-BOX----------------------------------------------------------*/
 .border{  
@@ -165,15 +160,6 @@ body {
   .flex-tabs{
     flex-direction: column;
     
-    .tab{
-      background: #fff;
-      border-bottom: 1px solid #ccc;
-      
-        &:last-of-type{
-          border-bottom: none;
-        }
-    }
-    
     #tab-one-label{order:1;}
     #tab-two-label{order: 3;}
     #tab-three-label{order: 5;};
@@ -195,7 +181,7 @@ body {
   #tab-two:checked ~ .tabs #tab-two-panel,
   #tab-three:checked ~ .tabs #tab-three-panel,
   #tab-four:checked ~ .tabs #tab-four-panel{
-    border-bottom: 1px solid #ccc;
+    border-bottom: none;
   }
 }
 /*-------------------------------------------TOP-CONTAINER-----------------------------------------------------*/
