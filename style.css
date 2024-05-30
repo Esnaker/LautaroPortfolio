@@ -6,6 +6,7 @@
       }
       img{
         width: 370px;
+        object-fit: cover;
       }
       .my-skills{
         flex-wrap: wrap;
